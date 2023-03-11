@@ -1,0 +1,77 @@
+.main-color {
+    background-color: #ab7a5f;
+}
+
+.text-main-color {
+    color: #ab7a5f;
+}
+
+.btn.btn.main-color:hover {
+    background-color: #eaded7;
+    color: black;
+}
+
+.second-color {
+    background-color: #eaded7;
+}
+
+.btn.main-color {
+    color: rgb(229, 226, 226);
+}
+
+.radius {
+    border-radius: 0.25rem;
+}
+
+.disapper {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.disapper:hover {
+    opacity: 1;
+}
+
+.text-color {
+    color: #102a42;
+}
+
+.p-color {
+    color: #617d98;
+}
+
+@media (min-width: 992px) {
+    .h-lg-450 {
+        height: 450px;
+    }
+
+    .h-lg-75 {
+        height: 75px;
+    }
+
+    .position-md-sticky {
+        position: sticky;
+    }
+}
+
+@media (min-width: 768px) {
+    .position-md-sticky {
+        position: sticky;
+    }
+}
+
+@media (max-width: 576px) {
+    .h-md-500 {
+        height: 500px;
+    }
+
+    .h-md-100 {
+        height: 100px;
+    }
+}
+
+@media (min-width: 576px) {
+    .h-sm-50 {
+        height: 50px;
+    }
+}
